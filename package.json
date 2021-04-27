@@ -1,0 +1,25 @@
+{
+  "name": "atp_things_client_redis",
+  "version": "1.0.0",
+  "description": "Redis client for ATP Thing ecosystem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrazpolak/atp_things_client_redis.git"
+  },
+  "keywords": [
+    "ATP_Thing",
+    "redis",
+    "IoT",
+    "IIoT"
+  ],
+  "author": "Andraz Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrazpolak/atp_things_client_redis/issues"
+  },
+  "homepage": "https://github.com/andrazpolak/atp_things_client_redis#readme"
+}
