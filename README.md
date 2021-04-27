@@ -1,6 +1,6 @@
-# ATP Things - Client - redis
+# ATP Things - Client (redis)
 
-ATP Thing client redis is the library for communicating with redis in-memory database for exchangeing data between services.
+ATP Things client redis is the library for communicating with redis in-memory database for exchangeing data between services.
 
 ## Getting started
 ## The API
