@@ -15,6 +15,19 @@ async function get(uuid, property) {
     return data;
 };
 
+
+
+async function getList(uuid) {
+    let data;
+    try {
+        data = await redis_client.getList();
+    } catch (err) {
+        data = { error: err };
+        console.log("error", err);
+    }
+    return data;
+};
+
 async function getStatus(uuid) {
     let data;
     try {
@@ -157,6 +170,8 @@ async function publishOutputs(uuid, property) {
     return data;
 };
 
+
+
 module.exports = {
     client: require('../lib/atp_redis/atp_things_redis_objects').client,
     subscriber: require('../lib/atp_redis/atp_things_redis_objects').subscriber,
@@ -175,6 +190,7 @@ module.exports = {
     publishStatus,
     publishError,
     publishInputs,
-    publishOutputs
+    publishOutputs,
+    getList
 }
 

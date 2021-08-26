@@ -4,7 +4,7 @@
   "description": "Redis client for ATP Thing ecosystem.",
   "main": "./src/index.js",
   "scripts": {
-    "test": "node ./test"
+    "test": "SET NODE_ENV=development && node ./test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "ioredis": "^4.27.1"
+  },
+  "devDependencies": {
+    "dotenv-flow": "^3.2.0"
   }
 }
