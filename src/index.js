@@ -15,9 +15,7 @@ async function get(uuid, property) {
     return data;
 };
 
-
-
-async function getList(uuid) {
+async function getList() {
     let data;
     try {
         data = await redis_client.getList();
